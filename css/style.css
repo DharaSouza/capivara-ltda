@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    background-color: black;
+    font-family: "Irish Grover", system-ui;
+}
+.menu{
+    background-image:url(../img/VERMELHO.png) ;
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    color: aliceblue;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    margin-right: 215px;
+}
+.categorias{
+    color: aliceblue;
+    gap: 80px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 40px;
+    width: auto;
+}
+.marcas{
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+    margin-top: 40px;
+}
+.marca{
+    background-color: #E0141B;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.tenis{
+ width: 200px;
+ height: auto;
+}
+.card{
+    background-color: #D9D9D9;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+}
+.tenis img{
+    width: 200px;
+    height: auto;
+}
+
+.card a{
+    color: black;
+}
+.prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 60px;
+}
+footer{
+    background-image:url(../img/VERMELHO.png);
+    height: 100px;
+    margin-top: 60px;
+    color: aliceblue;
+}
+.card:hover{
+    scale: 1.1;
+}
+.rede{
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    padding: 10px; ;
+}
+.nome{
+    font-size: 1.9rem;
+}
+.tel{
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+.num{
+    font-size: 1.9rem;
+}
+.marca:hover{
+    scale:1.1;
+}
